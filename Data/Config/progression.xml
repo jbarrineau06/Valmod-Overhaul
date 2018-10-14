@@ -677,7 +677,7 @@
 		</effect>
 	</perk>
 
-	<action_skill name="Assault Rifles" exp_to_level="150" icon="rifle" description_key="Do more damage with assault weapons and reduce the quality loss from repairs. Level 20 unlocks unlocks the SMG. Level 40 unlocks Assault Rifle." title_key="Assault Rifles" group="firearms">
+	<action_skill name="Assault Rifles" exp_to_level="150" icon="rifle" description_key="Do more damage with assault weapons and reduce the quality loss from repairs. Level 20 unlocks the SMG. Level 40 unlocks Assault Rifle." title_key="Assault Rifles" group="firearms">
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
 			<multiply skill_level="1,5" value="1,1.04"/>
